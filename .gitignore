@@ -1,3 +1,9 @@
+# this bot stores every generated image as png
+*.png
+
+# api keys are stored in json file
+*.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
