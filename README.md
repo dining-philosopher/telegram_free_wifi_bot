@@ -8,7 +8,7 @@ Needs api_keys.json file like this:
 ```
 {
     "wigle_key": "your_wigle_key_here=",
-    "telegram_key": "your_telegram__key_here"
+    "telegram_key": "your_telegram_key_here"
 }
 ```
 
