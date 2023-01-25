@@ -5,11 +5,12 @@ Shows free wi-fi networks from wigle.net on openstreetmap.
 
 Needs api_keys.json file like this:
 
+```
 {
     "wigle_key": "your_wigle_key_here=",
     "telegram_key": "your_telegram__key_here"
 }
-
+```
 
 Contextily library has ill-functioning `_retryer` function, so it is recommended to redefine it, e. g. as follows:
 
