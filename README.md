@@ -7,7 +7,8 @@ Contextily library has ill-functioning `_retryer` function, so it is recommended
 
 The file is somewhere like ~/.local/lib/python3.8/site-packages/contextily/tile.py
 
-``import sys
+```
+import sys
 from requests.adapters import HTTPAdapter, Retry
 def _retryer(tile_url, wait, max_retries):
     """new retry function cos original one sucks
@@ -22,5 +23,6 @@ def _retryer(tile_url, wait, max_retries):
     print("Trying to get url: ", tile_url, file = sys.stderr)
     request = s.get(tile_url, headers={"user-agent": USER_AGENT})
     request.raise_for_status()
-    return request``
+    return request
+```
 
